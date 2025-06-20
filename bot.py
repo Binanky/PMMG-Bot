@@ -204,4 +204,8 @@ async def ponto(ctx):
     view ***REMOVED*** BatePontoView()
     await ctx.send(texto, view***REMOVED***view)
 
-bot.run("REMOVED_TOKEN")
+import os
+
+TOKEN ***REMOVED*** os.getenv("REMOVED_TOKEN")
+bot.run(TOKEN)
+
