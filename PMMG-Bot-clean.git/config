@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion ***REMOVED*** 0
+	filemode ***REMOVED*** false
+	bare ***REMOVED*** true
+	symlinks ***REMOVED*** false
+	ignorecase ***REMOVED*** true
+[remote "origin"]
+	url ***REMOVED*** https://github.com/Binanky/PMMG-Bot.git
+	tagOpt ***REMOVED*** --no-tags
+	fetch ***REMOVED*** +refs/*:refs/*
+	mirror ***REMOVED*** true

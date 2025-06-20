@@ -179,7 +179,6 @@ async def ponto(ctx):
     await ctx.send(texto, view***REMOVED***view)
 
 # Inicialização segura com variável de ambiente
+import os
 TOKEN ***REMOVED*** os.getenv("DISCORD_TOKEN")
-if not TOKEN:
-    raise ValueError("❌ A variável de ambiente DISCORD_TOKEN não está definida.")
 bot.run(TOKEN)
