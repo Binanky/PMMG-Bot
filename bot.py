@@ -11,7 +11,7 @@ try:
 except:
     pass
 
-intents ***REMOVED*** discord.Intents.all()
+intents = discord.Intents.all()
 bot ***REMOVED*** commands.Bot(command_prefix***REMOVED***'!', intents***REMOVED***intents)
 
 CARGO_MEMBRO_OFICIAL ***REMOVED*** "👮┃Membro Oficial"
